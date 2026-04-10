@@ -1,0 +1,2863 @@
+{
+  "meta": {
+    "title": "낯선 세계에서의 나",
+    "subtitle": "성향 기반 이세계 캐릭터 프로파일러",
+    "version": "1.0.0",
+    "total_questions": 60,
+    "choice_count": 4,
+    "sections": [
+      {
+        "id": 1,
+        "title": "낯선 세계에 떨어진 첫 순간",
+        "description": "처음 도착한 세계에서 무엇을 먼저 보고, 어떻게 반응하는지를 묻는 섹션"
+      },
+      {
+        "id": 2,
+        "title": "위협 앞에서 움직이는 방식",
+        "description": "위험과 전투 상황에서 어떤 식으로 움직이는지를 묻는 섹션"
+      },
+      {
+        "id": 3,
+        "title": "힘과 기술을 다루는 방식",
+        "description": "힘을 배우고 다루는 태도와 방식에 대한 섹션"
+      },
+      {
+        "id": 4,
+        "title": "동료와 조직 속의 나",
+        "description": "파티, 조직, 관계 속에서 맡게 되는 역할을 묻는 섹션"
+      },
+      {
+        "id": 5,
+        "title": "오래 버티는 사람의 방식",
+        "description": "자원이 부족하고 불리한 상황에서 어떻게 버티는지를 묻는 섹션"
+      },
+      {
+        "id": 6,
+        "title": "끝내 남는 이름과 방식",
+        "description": "무엇을 위해 싸우고, 어떤 사람으로 남고 싶은지를 묻는 섹션"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "section": 1,
+      "question": "눈을 뜨자마자 낯선 세계의 폐허 같은 입구에 서 있다. 가장 먼저 하게 되는 행동은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "높은 곳이나 시야가 트인 지점을 찾아 전체 지형부터 살핀다.",
+          "scores": {
+            "world": { "apocalypse": 2 },
+            "role": { "scout": 1 },
+            "tag": { "survival": 1, "wanderer": 1 },
+            "big5": { "conscientiousness": 1, "neuroticism": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "이곳에도 규칙이 있을 것 같아 사람과 세력의 분위기부터 파악한다.",
+          "scores": {
+            "world": { "murim": 1, "cyberpunk": 1 },
+            "role": { "negotiator": 1 },
+            "tag": { "operation": 1, "contract": 1 },
+            "big5": { "agreeableness": 1, "extraversion": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "쓸 만한 장비나 도구, 물자를 확보할 수 있는 장소를 먼저 찾는다.",
+          "scores": {
+            "world": { "apocalypse": 1, "cyberpunk": 1 },
+            "role": { "technician": 1 },
+            "tag": { "strategy": 1, "survival": 1 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "위험하더라도 중심부에 무엇이 있는지 직접 확인하러 들어간다.",
+          "scores": {
+            "world": { "fantasy": 1, "dark_fantasy": 1 },
+            "role": { "frontliner": 1 },
+            "tag": { "growth": 1, "inquiry": 1 },
+            "big5": { "openness": 1, "extraversion": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "section": 1,
+      "question": "처음 도착한 거리에서 가장 눈길이 가는 장소는 어디인가?",
+      "options": [
+        {
+          "id": "A",
+          "text": "버려진 상점과 깨진 창문 사이에 아직 쓸 수 있을 것 같은 물자가 남은 구역",
+          "scores": {
+            "world": { "apocalypse": 2 },
+            "role": { "technician": 1 },
+            "tag": { "survival": 1, "strategy": 1 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "사람들이 수군거리지만 아무도 오래 머물지 않는 음침한 성당이나 탑",
+          "scores": {
+            "world": { "dark_fantasy": 2 },
+            "role": { "caster": 1 },
+            "tag": { "record": 1, "inquiry": 1 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "의뢰서와 소문이 가득 붙어 있는 길드 게시판 근처",
+          "scores": {
+            "world": { "fantasy": 2 },
+            "role": { "commander": 1 },
+            "tag": { "growth": 1, "operation": 1 },
+            "big5": { "extraversion": 1, "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "간판은 번쩍이는데 내부는 수상한 거래가 오가는 네온 골목",
+          "scores": {
+            "world": { "cyberpunk": 2 },
+            "role": { "negotiator": 1 },
+            "tag": { "contract": 1, "wanderer": 1 },
+            "big5": { "openness": 1, "extraversion": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "section": 1,
+      "question": "낯선 세계의 첫 안내자가 당신에게 손을 내민다. 가장 가까운 반응은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "일단 따라가되, 도주 경로와 주변 구조를 계속 확인한다.",
+          "scores": {
+            "world": { "apocalypse": 1, "dark_fantasy": 1 },
+            "role": { "scout": 1 },
+            "tag": { "survival": 1, "wanderer": 1 },
+            "big5": { "neuroticism": 1, "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "상대가 어떤 규칙과 이해관계로 움직이는 사람인지부터 묻는다.",
+          "scores": {
+            "world": { "murim": 1, "cyberpunk": 1 },
+            "role": { "negotiator": 1 },
+            "tag": { "contract": 1, "operation": 1 },
+            "big5": { "agreeableness": 1, "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "의심스럽지만 새로운 정보를 얻을 기회라 생각하고 적극적으로 질문한다.",
+          "scores": {
+            "world": { "fantasy": 1, "cyberpunk": 1 },
+            "role": { "commander": 1 },
+            "tag": { "growth": 1, "inquiry": 1 },
+            "big5": { "openness": 1, "extraversion": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "말보다 손에 든 물건, 복장, 주변 반응 같은 단서부터 본다.",
+          "scores": {
+            "world": { "dark_fantasy": 1, "murim": 1 },
+            "role": { "scout": 1 },
+            "tag": { "record": 1, "strategy": 1 },
+            "big5": { "openness": 1, "neuroticism": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "section": 1,
+      "question": "처음 들어선 마을의 분위기가 어딘가 불안하다. 당신은 무엇을 기준으로 이곳을 판단하는가?",
+      "options": [
+        {
+          "id": "A",
+          "text": "식량, 잠자리, 안전한 은신처가 확보되는지부터 본다.",
+          "scores": {
+            "world": { "apocalypse": 2 },
+            "role": { "supporter": 1 },
+            "tag": { "survival": 1, "operation": 1 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "겉으로는 멀쩡해 보여도 숨기고 있는 금기나 저주가 있는지 살핀다.",
+          "scores": {
+            "world": { "dark_fantasy": 2 },
+            "role": { "caster": 1 },
+            "tag": { "record": 1, "inquiry": 1 },
+            "big5": { "openness": 1, "neuroticism": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "사람들이 서로 어떤 식으로 협력하고 움직이는지가 제일 중요하다.",
+          "scores": {
+            "world": { "fantasy": 1, "comedy_fantasy": 1 },
+            "role": { "supporter": 1 },
+            "tag": { "support": 1, "operation": 1 },
+            "big5": { "agreeableness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "권력을 쥔 세력이 누구고, 그 세력이 무엇으로 사람을 통제하는지 본다.",
+          "scores": {
+            "world": { "cyberpunk": 1, "murim": 1 },
+            "role": { "commander": 1 },
+            "tag": { "contract": 1, "strategy": 1 },
+            "big5": { "conscientiousness": 1, "extraversion": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "section": 1,
+      "question": "하룻밤을 보내야 한다. 가장 끌리는 장소는?",
+      "options": [
+        {
+          "id": "A",
+          "text": "무너진 건물의 윗층처럼 사람 눈에 잘 띄지 않지만 주변을 볼 수 있는 곳",
+          "scores": {
+            "world": { "apocalypse": 2 },
+            "role": { "scout": 1 },
+            "tag": { "survival": 1, "wanderer": 1 },
+            "big5": { "neuroticism": 1, "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "출입은 위험하지만 오래된 기록과 흔적이 남아 있을 것 같은 폐성당이나 서고",
+          "scores": {
+            "world": { "dark_fantasy": 1, "fantasy": 1 },
+            "role": { "caster": 1 },
+            "tag": { "record": 1, "inquiry": 1 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "시끄럽고 허술해 보여도 정보와 사람이 몰리는 여관이나 길드 숙소",
+          "scores": {
+            "world": { "comedy_fantasy": 1, "fantasy": 1 },
+            "role": { "negotiator": 1 },
+            "tag": { "growth": 1, "support": 1 },
+            "big5": { "extraversion": 1, "agreeableness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "보안이 잘 되어 있고 네트워크나 장비에 접근할 수 있는 통제 구역 근처",
+          "scores": {
+            "world": { "cyberpunk": 2 },
+            "role": { "technician": 1 },
+            "tag": { "strategy": 1, "operation": 1 },
+            "big5": { "conscientiousness": 1, "openness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "section": 1,
+      "question": "처음 얻게 된 물건 하나를 고를 수 있다면, 무엇을 집겠는가?",
+      "options": [
+        {
+          "id": "A",
+          "text": "실전에 바로 도움이 되는 튼튼한 무기나 방어구",
+          "scores": {
+            "world": { "fantasy": 1, "murim": 1 },
+            "role": { "frontliner": 1 },
+            "tag": { "growth": 1, "survival": 1 },
+            "big5": { "extraversion": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "멀리 있는 위험을 먼저 볼 수 있게 해주는 관측 장비나 지도",
+          "scores": {
+            "world": { "apocalypse": 1, "cyberpunk": 1 },
+            "role": { "scout": 1 },
+            "tag": { "strategy": 1, "wanderer": 1 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "정체를 알 수 없는 기록물이나 비급, 금지된 데이터 조각",
+          "scores": {
+            "world": { "dark_fantasy": 1, "cyberpunk": 1 },
+            "role": { "caster": 1 },
+            "tag": { "record": 1, "inquiry": 1 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "당장 누구와도 거래나 교섭에 쓸 수 있을 만한 신뢰의 증표",
+          "scores": {
+            "world": { "murim": 1, "fantasy": 1 },
+            "role": { "negotiator": 1 },
+            "tag": { "contract": 1, "operation": 1 },
+            "big5": { "agreeableness": 1, "extraversion": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "section": 1,
+      "question": "이 세계의 소문을 처음 들었을 때 가장 귀가 가는 이야기는?",
+      "options": [
+        {
+          "id": "A",
+          "text": "아무도 오래 버티지 못한 금지 구역에서 돌아온 사람이 있다는 이야기",
+          "scores": {
+            "world": { "apocalypse": 1, "dark_fantasy": 1 },
+            "role": { "frontliner": 1 },
+            "tag": { "growth": 1, "survival": 1 },
+            "big5": { "extraversion": 1, "openness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "낡은 유물이나 오래된 기록 하나가 판 전체를 바꿀 수 있다는 이야기",
+          "scores": {
+            "world": { "dark_fantasy": 1, "fantasy": 1 },
+            "role": { "caster": 1 },
+            "tag": { "record": 1, "inquiry": 1 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "허술한 파티가 계속 사고를 치는데도 somehow 살아남는다는 이야기",
+          "scores": {
+            "world": { "comedy_fantasy": 2 },
+            "role": { "supporter": 1 },
+            "tag": { "comeback": 1, "support": 1 },
+            "big5": { "agreeableness": 1, "extraversion": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "보이지 않는 연결망과 거래 하나가 도시의 권력을 뒤집었다는 이야기",
+          "scores": {
+            "world": { "cyberpunk": 1, "murim": 1 },
+            "role": { "negotiator": 1 },
+            "tag": { "contract": 1, "strategy": 1 },
+            "big5": { "conscientiousness": 1, "openness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "section": 1,
+      "question": "처음 마주친 갈등 상황에서 당신이 가장 먼저 떠올리는 건?",
+      "options": [
+        {
+          "id": "A",
+          "text": "지금 당장 빠져나갈 길과 숨을 곳이 있는지 확인해야 한다.",
+          "scores": {
+            "world": { "apocalypse": 2 },
+            "role": { "scout": 1 },
+            "tag": { "survival": 1, "strategy": 1 },
+            "big5": { "neuroticism": 1, "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "누가 힘의 중심에 있는지 파악하면 의외로 쉽게 정리될 수도 있다.",
+          "scores": {
+            "world": { "murim": 1, "cyberpunk": 1 },
+            "role": { "commander": 1 },
+            "tag": { "operation": 1, "contract": 1 },
+            "big5": { "extraversion": 1, "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "상대가 숨기고 있는 약점이나 규칙이 있을지부터 보고 싶다.",
+          "scores": {
+            "world": { "dark_fantasy": 1, "cyberpunk": 1 },
+            "role": { "technician": 1 },
+            "tag": { "inquiry": 1, "strategy": 1 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "일단 한쪽이 완전히 무너지기 전에 중간에서 분위기를 바꿔야 한다.",
+          "scores": {
+            "world": { "fantasy": 1, "comedy_fantasy": 1 },
+            "role": { "supporter": 1 },
+            "tag": { "support": 1, "operation": 1 },
+            "big5": { "agreeableness": 1, "extraversion": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "section": 1,
+      "question": "이 세계의 규칙서를 우연히 얻게 됐다. 당신의 반응은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "전부 믿지는 않더라도 살아남는 데 필요한 부분부터 빠르게 익힌다.",
+          "scores": {
+            "world": { "apocalypse": 1, "cyberpunk": 1 },
+            "role": { "technician": 1 },
+            "tag": { "survival": 1, "operation": 1 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "공개된 규칙보다 숨겨진 예외와 금기를 먼저 찾고 싶어진다.",
+          "scores": {
+            "world": { "dark_fantasy": 2 },
+            "role": { "caster": 1 },
+            "tag": { "record": 1, "inquiry": 1 },
+            "big5": { "openness": 1, "neuroticism": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "규칙이 있다면 결국 사람들은 그 틈을 어떻게 이용하는지가 더 궁금하다.",
+          "scores": {
+            "world": { "murim": 1, "cyberpunk": 1 },
+            "role": { "negotiator": 1 },
+            "tag": { "contract": 1, "strategy": 1 },
+            "big5": { "agreeableness": 1, "openness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "언젠가 필요할지 모르니 정리해 두고 실제 상황에서 검증해 본다.",
+          "scores": {
+            "world": { "fantasy": 1, "comedy_fantasy": 1 },
+            "role": { "commander": 1 },
+            "tag": { "record": 1, "growth": 1 },
+            "big5": { "conscientiousness": 1, "openness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "section": 1,
+      "question": "낯선 세계에서 첫날이 끝나갈 때, 당신이 가장 중요하게 여길 것은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "내일도 살아 있을 수 있는 최소한의 물자와 동선 확보",
+          "scores": {
+            "world": { "apocalypse": 2 },
+            "role": { "scout": 1 },
+            "tag": { "survival": 1, "strategy": 1 },
+            "big5": { "conscientiousness": 1, "neuroticism": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "이 세계가 숨기고 있는 오래된 진실이나 이상한 징조의 단서",
+          "scores": {
+            "world": { "dark_fantasy": 1, "fantasy": 1 },
+            "role": { "caster": 1 },
+            "tag": { "inquiry": 1, "record": 1 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "내 편이 될 수 있는 사람과 앞으로 굴러갈 수 있는 관계의 실마리",
+          "scores": {
+            "world": { "fantasy": 1, "comedy_fantasy": 1 },
+            "role": { "supporter": 1 },
+            "tag": { "support": 1, "growth": 1 },
+            "big5": { "agreeableness": 1, "extraversion": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "이 세계에서 내가 유리해질 수 있는 구조와 판의 흐름 파악",
+          "scores": {
+            "world": { "cyberpunk": 1, "murim": 1 },
+            "role": { "commander": 1 },
+            "tag": { "operation": 1, "contract": 1 },
+            "big5": { "conscientiousness": 1, "extraversion": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "section": 2,
+      "question": "좁은 통로 끝에서 적이 먼저 모습을 드러냈다. 가장 먼저 취하는 행동은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "거리를 재기보다 먼저 앞으로 붙어 상대의 움직임을 끊는다.",
+          "scores": {
+            "world": { "fantasy": 1, "murim": 1 },
+            "role": { "frontliner": 2 },
+            "tag": { "growth": 1, "strategy": 1 },
+            "big5": { "extraversion": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "바로 교전하지 않고 사각이나 엄폐를 잡아 유리한 거리부터 만든다.",
+          "scores": {
+            "world": { "apocalypse": 1, "cyberpunk": 1 },
+            "role": { "shooter": 2 },
+            "tag": { "survival": 1, "strategy": 1 },
+            "big5": { "conscientiousness": 1, "neuroticism": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "적 수와 배치, 퇴로를 먼저 확인해 가장 약한 지점을 찾는다.",
+          "scores": {
+            "world": { "apocalypse": 1, "murim": 1 },
+            "role": { "scout": 2 },
+            "tag": { "survival": 1, "operation": 1 },
+            "big5": { "conscientiousness": 1, "openness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "혼자 움직이기보다 아군 위치를 먼저 정리하고 신호를 맞춘다.",
+          "scores": {
+            "world": { "fantasy": 1, "cyberpunk": 1 },
+            "role": { "commander": 2 },
+            "tag": { "operation": 1, "support": 1 },
+            "big5": { "extraversion": 1, "agreeableness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "section": 2,
+      "question": "전열이 갑자기 무너지고 동료 한 명이 고립됐다. 당신의 선택은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "바로 앞으로 뛰어들어 적을 밀어내고 고립된 동료를 꺼낸다.",
+          "scores": {
+            "world": { "fantasy": 1, "dark_fantasy": 1 },
+            "role": { "frontliner": 2 },
+            "tag": { "growth": 1, "support": 1 },
+            "big5": { "extraversion": 1, "agreeableness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "직접 뛰어들기보다 엄호할 수 있는 각을 잡고 압박을 분산시킨다.",
+          "scores": {
+            "world": { "apocalypse": 1, "cyberpunk": 1 },
+            "role": { "shooter": 2 },
+            "tag": { "strategy": 1, "support": 1 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "현재 상황에서 살릴 수 있는지, 철수해야 하는지부터 냉정하게 판단한다.",
+          "scores": {
+            "world": { "apocalypse": 1, "dark_fantasy": 1 },
+            "role": { "scout": 2 },
+            "tag": { "survival": 1, "operation": 1 },
+            "big5": { "neuroticism": 1, "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "주변 인원에게 즉시 짧은 지시를 내려 구조와 후퇴를 동시에 진행한다.",
+          "scores": {
+            "world": { "murim": 1, "fantasy": 1 },
+            "role": { "commander": 2 },
+            "tag": { "operation": 1, "strategy": 1 },
+            "big5": { "extraversion": 1, "conscientiousness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "section": 2,
+      "question": "적이 강하다는 건 알지만, 이 싸움을 피할 수는 없다. 가장 가까운 방식은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "정면에서 힘으로 부딪히며 균열을 만들고 분위기를 뒤집는다.",
+          "scores": {
+            "world": { "murim": 1, "fantasy": 1 },
+            "role": { "frontliner": 2 },
+            "tag": { "growth": 1, "comeback": 1 },
+            "big5": { "extraversion": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "위치를 바꾸며 확실히 맞출 수 있는 순간만 노린다.",
+          "scores": {
+            "world": { "cyberpunk": 1, "apocalypse": 1 },
+            "role": { "shooter": 2 },
+            "tag": { "strategy": 1, "survival": 1 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "싸움 그 자체보다 상대의 습관과 패턴을 먼저 읽는다.",
+          "scores": {
+            "world": { "dark_fantasy": 1, "murim": 1 },
+            "role": { "scout": 2 },
+            "tag": { "inquiry": 1, "strategy": 1 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "승리 조건을 다시 정하고, 모두가 버틸 수 있는 흐름으로 전투를 바꾼다.",
+          "scores": {
+            "world": { "fantasy": 1, "cyberpunk": 1 },
+            "role": { "commander": 2 },
+            "tag": { "operation": 1, "support": 1 },
+            "big5": { "agreeableness": 1, "conscientiousness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "section": 2,
+      "question": "처음 들어가는 던전이나 위험 구역에서 당신이 가장 먼저 확인하는 것은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "정면 충돌이 일어났을 때 내가 버틸 수 있는 공간과 폭",
+          "scores": {
+            "world": { "fantasy": 1, "dark_fantasy": 1 },
+            "role": { "frontliner": 2 },
+            "tag": { "growth": 1, "survival": 1 },
+            "big5": { "extraversion": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "원거리에서 적을 제압하거나 견제할 수 있는 시야와 사선",
+          "scores": {
+            "world": { "apocalypse": 1, "cyberpunk": 1 },
+            "role": { "shooter": 2 },
+            "tag": { "strategy": 1, "operation": 1 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "함정, 감시 장치, 숨어 있는 통로처럼 보이지 않는 변수",
+          "scores": {
+            "world": { "cyberpunk": 1, "dark_fantasy": 1 },
+            "role": { "scout": 2 },
+            "tag": { "survival": 1, "inquiry": 1 },
+            "big5": { "openness": 1, "neuroticism": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "모두가 위험해질 경우 어디서 regroup하고 어떻게 빠질지",
+          "scores": {
+            "world": { "fantasy": 1, "apocalypse": 1 },
+            "role": { "commander": 2 },
+            "tag": { "operation": 1, "strategy": 1 },
+            "big5": { "conscientiousness": 1, "agreeableness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "section": 2,
+      "question": "전투가 길어질수록 당신의 강점이 가장 잘 드러나는 순간은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "처음보다 점점 더 감이 올라오면서 정면 압박이 세질 때",
+          "scores": {
+            "world": { "murim": 1, "fantasy": 1 },
+            "role": { "frontliner": 2 },
+            "tag": { "growth": 1, "comeback": 1 },
+            "big5": { "extraversion": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "상대가 지치거나 방심하는 타이밍에 정확한 한 방을 넣을 때",
+          "scores": {
+            "world": { "cyberpunk": 1, "apocalypse": 1 },
+            "role": { "shooter": 2 },
+            "tag": { "strategy": 1, "record": 1 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "다들 못 본 틈이나 약점을 먼저 찾아 판을 바꿀 때",
+          "scores": {
+            "world": { "dark_fantasy": 1, "murim": 1 },
+            "role": { "scout": 2 },
+            "tag": { "inquiry": 1, "survival": 1 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "흩어진 흐름을 다시 묶어 전체 전투를 안정시키기 시작할 때",
+          "scores": {
+            "world": { "fantasy": 1, "comedy_fantasy": 1 },
+            "role": { "commander": 2 },
+            "tag": { "operation": 1, "support": 1 },
+            "big5": { "agreeableness": 1, "extraversion": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "section": 2,
+      "question": "상대가 압도적으로 강해 보여도 굳이 싸워야 하는 이유가 생겼다. 당신은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "이길 가능성이 낮아도 누군가는 앞에서 받아내야 하니 내가 선다.",
+          "scores": {
+            "world": { "dark_fantasy": 1, "fantasy": 1 },
+            "role": { "frontliner": 2 },
+            "tag": { "support": 1, "growth": 1 },
+            "big5": { "agreeableness": 1, "extraversion": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "최대한 맞지 않고 끝낼 수 있는 위치와 타이밍을 만든다.",
+          "scores": {
+            "world": { "apocalypse": 1, "cyberpunk": 1 },
+            "role": { "shooter": 2 },
+            "tag": { "survival": 1, "strategy": 1 },
+            "big5": { "conscientiousness": 1, "neuroticism": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "싸움 전에 주변 환경이나 장치, 구조를 이용할 수 있는지 본다.",
+          "scores": {
+            "world": { "cyberpunk": 1, "comedy_fantasy": 1 },
+            "role": { "scout": 2 },
+            "tag": { "operation": 1, "inquiry": 1 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "싸우는 방식 자체를 바꾸기 위해 역할 분담과 지시부터 재정리한다.",
+          "scores": {
+            "world": { "murim": 1, "fantasy": 1 },
+            "role": { "commander": 2 },
+            "tag": { "operation": 1, "strategy": 1 },
+            "big5": { "conscientiousness": 1, "extraversion": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "section": 2,
+      "question": "도망쳐야 할지 싸워야 할지 애매한 상황이다. 당신의 기준은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "지금 물러나면 더 큰 피해가 생긴다면, 위험해도 선을 넘는다.",
+          "scores": {
+            "world": { "fantasy": 1, "murim": 1 },
+            "role": { "frontliner": 2 },
+            "tag": { "growth": 1, "support": 1 },
+            "big5": { "extraversion": 1, "agreeableness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "확실히 유리한 거리와 조건이 아니면 싸움을 길게 끌지 않는다.",
+          "scores": {
+            "world": { "apocalypse": 1, "cyberpunk": 1 },
+            "role": { "shooter": 2 },
+            "tag": { "survival": 1, "strategy": 1 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "보이지 않는 변수나 매복 가능성이 크면 우선 빠져나가는 쪽을 택한다.",
+          "scores": {
+            "world": { "dark_fantasy": 1, "apocalypse": 1 },
+            "role": { "scout": 2 },
+            "tag": { "survival": 1, "record": 1 },
+            "big5": { "neuroticism": 1, "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "이 싸움이 전체 흐름에 어떤 의미가 있는지 보고 나서 판단한다.",
+          "scores": {
+            "world": { "cyberpunk": 1, "murim": 1 },
+            "role": { "commander": 2 },
+            "tag": { "operation": 1, "contract": 1 },
+            "big5": { "openness": 1, "conscientiousness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "section": 2,
+      "question": "적을 상대할 때 당신이 가장 싫어하는 전개는?",
+      "options": [
+        {
+          "id": "A",
+          "text": "서로 눈치만 보다가 아무도 먼저 판을 깨지 않는 상황",
+          "scores": {
+            "world": { "fantasy": 1, "murim": 1 },
+            "role": { "frontliner": 2 },
+            "tag": { "growth": 1, "comeback": 1 },
+            "big5": { "extraversion": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "시야도 거리도 엉망인데 감으로만 싸워야 하는 상황",
+          "scores": {
+            "world": { "apocalypse": 1, "cyberpunk": 1 },
+            "role": { "shooter": 2 },
+            "tag": { "strategy": 1, "record": 1 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "함정이나 속임수가 많아 무엇이 진짜 위협인지 안 보이는 상황",
+          "scores": {
+            "world": { "dark_fantasy": 1, "cyberpunk": 1 },
+            "role": { "scout": 2 },
+            "tag": { "survival": 1, "inquiry": 1 },
+            "big5": { "neuroticism": 1, "openness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "각자 움직여서 전체 전열이 무너지고 지시가 안 먹히는 상황",
+          "scores": {
+            "world": { "fantasy": 1, "comedy_fantasy": 1 },
+            "role": { "commander": 2 },
+            "tag": { "operation": 1, "support": 1 },
+            "big5": { "agreeableness": 1, "conscientiousness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "section": 2,
+      "question": "의뢰를 받았는데 예상보다 훨씬 위험하다. 가장 먼저 드는 생각은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "위험해도 누군가는 몸으로 길을 열어야 한다는 쪽이다.",
+          "scores": {
+            "world": { "fantasy": 1, "dark_fantasy": 1 },
+            "role": { "frontliner": 2 },
+            "tag": { "growth": 1, "support": 1 },
+            "big5": { "extraversion": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "잘만 풀면 굳이 정면으로 가지 않고도 끝낼 수 있을 것 같다.",
+          "scores": {
+            "world": { "cyberpunk": 1, "apocalypse": 1 },
+            "role": { "shooter": 2 },
+            "tag": { "strategy": 1, "survival": 1 },
+            "big5": { "conscientiousness": 1, "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "정보가 부족한 게 제일 위험하니, 진입 전에 더 캐야 한다.",
+          "scores": {
+            "world": { "apocalypse": 1, "murim": 1 },
+            "role": { "scout": 2 },
+            "tag": { "record": 1, "survival": 1 },
+            "big5": { "conscientiousness": 1, "neuroticism": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "사람과 자원을 다시 배치하면 생각보다 해볼 만할 수도 있다.",
+          "scores": {
+            "world": { "fantasy": 1, "cyberpunk": 1 },
+            "role": { "commander": 2 },
+            "tag": { "operation": 1, "strategy": 1 },
+            "big5": { "agreeableness": 1, "conscientiousness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "section": 2,
+      "question": "치열한 상황 끝에 살아남았을 때, 당신이 가장 먼저 돌아보는 것은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "내가 얼마나 더 강하게 밀어붙일 수 있었는지",
+          "scores": {
+            "world": { "murim": 1, "fantasy": 1 },
+            "role": { "frontliner": 2 },
+            "tag": { "growth": 1, "comeback": 1 },
+            "big5": { "extraversion": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "어느 거리와 타이밍이 가장 효율적이었는지",
+          "scores": {
+            "world": { "cyberpunk": 1, "apocalypse": 1 },
+            "role": { "shooter": 2 },
+            "tag": { "record": 1, "strategy": 1 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "위험 요소를 더 빨리 읽었다면 어떤 피해를 줄일 수 있었는지",
+          "scores": {
+            "world": { "dark_fantasy": 1, "apocalypse": 1 },
+            "role": { "scout": 2 },
+            "tag": { "survival": 1, "record": 1 },
+            "big5": { "neuroticism": 1, "openness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "누가 어떤 순간에 흔들렸고, 다음엔 어떻게 흐름을 잡아야 할지",
+          "scores": {
+            "world": { "fantasy": 1, "comedy_fantasy": 1 },
+            "role": { "commander": 2 },
+            "tag": { "operation": 1, "support": 1 },
+            "big5": { "agreeableness": 1, "conscientiousness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "section": 3,
+      "question": "이 세계에서 단 하나의 힘을 익혀야 한다면, 가장 끌리는 방향은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "몸에 익혀야 진짜 내 것이 되는 검술이나 체술 같은 직접 전투 기술",
+          "scores": {
+            "world": { "murim": 1, "fantasy": 1 },
+            "role": { "frontliner": 2 },
+            "tag": { "growth": 1, "strategy": 1 },
+            "big5": { "extraversion": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "원리를 이해할수록 더 멀리 갈 수 있는 마법, 주술, 술법 같은 이론형 힘",
+          "scores": {
+            "world": { "dark_fantasy": 1, "fantasy": 1 },
+            "role": { "caster": 2 },
+            "tag": { "inquiry": 1, "record": 1 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "장비, 기계, 도구를 만지고 조합해 실전에 써먹는 응용형 기술",
+          "scores": {
+            "world": { "cyberpunk": 1, "apocalypse": 1 },
+            "role": { "technician": 2 },
+            "tag": { "strategy": 1, "operation": 1 },
+            "big5": { "conscientiousness": 1, "openness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "특정 존재나 시스템과 연결해 대가를 치르고 힘을 끌어오는 방식",
+          "scores": {
+            "world": { "dark_fantasy": 1, "cyberpunk": 1 },
+            "role": { "caster": 2 },
+            "tag": { "contract": 1, "inquiry": 1 },
+            "big5": { "openness": 1, "neuroticism": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "section": 3,
+      "question": "위험하지만 강력한 힘을 얻을 수 있는 방법을 알게 됐다. 당신은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "내 몸과 실력으로 감당할 수 있는 방식이 아니면 굳이 손대지 않는다.",
+          "scores": {
+            "world": { "murim": 1, "apocalypse": 1 },
+            "role": { "frontliner": 2 },
+            "tag": { "survival": 1, "growth": 1 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "위험하더라도 원리와 대가를 이해할 수 있다면 시도해 볼 가치가 있다.",
+          "scores": {
+            "world": { "dark_fantasy": 1, "fantasy": 1 },
+            "role": { "caster": 2 },
+            "tag": { "inquiry": 1, "contract": 1 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "곧바로 쓰기보다 테스트와 보완을 거쳐 안전하게 다듬은 뒤 사용한다.",
+          "scores": {
+            "world": { "cyberpunk": 1, "apocalypse": 1 },
+            "role": { "technician": 2 },
+            "tag": { "record": 1, "operation": 1 },
+            "big5": { "conscientiousness": 1, "openness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "혼자 감당하기 어렵다면 누군가와 역할을 나눠 활용할 방법부터 찾는다.",
+          "scores": {
+            "world": { "fantasy": 1, "comedy_fantasy": 1 },
+            "role": { "technician": 1, "caster": 1 },
+            "tag": { "support": 1, "strategy": 1 },
+            "big5": { "agreeableness": 1, "conscientiousness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "section": 3,
+      "question": "당신에게 가장 이상적인 무기는 어떤 것에 가까운가?",
+      "options": [
+        {
+          "id": "A",
+          "text": "잡는 순간 곧바로 싸울 수 있고, 결국 숙련도로 차이가 나는 무기",
+          "scores": {
+            "world": { "fantasy": 1, "murim": 1 },
+            "role": { "frontliner": 2 },
+            "tag": { "growth": 1, "comeback": 1 },
+            "big5": { "extraversion": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "사용법보다 이해도가 중요해서, 알수록 더 강해지는 무기나 매개체",
+          "scores": {
+            "world": { "dark_fantasy": 1, "fantasy": 1 },
+            "role": { "caster": 2 },
+            "tag": { "record": 1, "inquiry": 1 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "개조와 조합이 가능해서 상황에 따라 형태를 바꿀 수 있는 장비",
+          "scores": {
+            "world": { "cyberpunk": 1, "apocalypse": 1 },
+            "role": { "technician": 2 },
+            "tag": { "strategy": 1, "operation": 1 },
+            "big5": { "conscientiousness": 1, "openness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "단독 성능보다 연결과 보조를 통해 진가가 나는 도구",
+          "scores": {
+            "world": { "comedy_fantasy": 1, "cyberpunk": 1 },
+            "role": { "technician": 1, "supporter": 1 },
+            "tag": { "support": 1, "operation": 1 },
+            "big5": { "agreeableness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "section": 3,
+      "question": "금지된 서고나 비밀 연구실에 들어갈 기회가 생겼다. 가장 먼저 하는 일은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "들어가기 전에 주변 구조와 위험 요소부터 확인한다.",
+          "scores": {
+            "world": { "dark_fantasy": 1, "apocalypse": 1 },
+            "role": { "frontliner": 1, "scout": 1 },
+            "tag": { "survival": 1, "strategy": 1 },
+            "big5": { "conscientiousness": 1, "neuroticism": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "가장 오래되고 핵심적인 기록물이나 금서가 어디 있는지부터 찾는다.",
+          "scores": {
+            "world": { "dark_fantasy": 2 },
+            "role": { "caster": 2 },
+            "tag": { "record": 1, "inquiry": 1 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "장치, 봉인, 시스템이 어떤 원리로 작동하는지부터 분석한다.",
+          "scores": {
+            "world": { "cyberpunk": 1, "fantasy": 1 },
+            "role": { "technician": 2 },
+            "tag": { "inquiry": 1, "record": 1 },
+            "big5": { "openness": 1, "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "지식을 혼자 독점하기보다 누가 이걸 가장 잘 활용할 수 있을지 생각한다.",
+          "scores": {
+            "world": { "fantasy": 1, "comedy_fantasy": 1 },
+            "role": { "supporter": 1, "technician": 1 },
+            "tag": { "support": 1, "operation": 1 },
+            "big5": { "agreeableness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "section": 3,
+      "question": "새로운 기술이나 힘을 배울 때, 당신 방식에 가장 가까운 것은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "설명보다 몸으로 부딪혀 익히는 편이 빠르다.",
+          "scores": {
+            "world": { "murim": 1, "fantasy": 1 },
+            "role": { "frontliner": 2 },
+            "tag": { "growth": 1, "comeback": 1 },
+            "big5": { "extraversion": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "원리와 맥락을 이해해야 제대로 익혔다고 느낀다.",
+          "scores": {
+            "world": { "dark_fantasy": 1, "fantasy": 1 },
+            "role": { "caster": 2 },
+            "tag": { "inquiry": 1, "record": 1 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "기록하고 반복 테스트하면서 실전 적용 가능성을 점검한다.",
+          "scores": {
+            "world": { "cyberpunk": 1, "apocalypse": 1 },
+            "role": { "technician": 2 },
+            "tag": { "record": 1, "operation": 1 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "다른 사람이 쓰는 방식까지 보면서 더 효율적인 활용법을 찾는다.",
+          "scores": {
+            "world": { "comedy_fantasy": 1, "cyberpunk": 1 },
+            "role": { "technician": 1, "commander": 1 },
+            "tag": { "strategy": 1, "support": 1 },
+            "big5": { "agreeableness": 1, "openness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "section": 3,
+      "question": "당신이 가장 믿는 건 무엇에 가까운가?",
+      "options": [
+        {
+          "id": "A",
+          "text": "결국 위기에서 버티는 건 단련된 몸과 실전 경험이다.",
+          "scores": {
+            "world": { "apocalypse": 1, "murim": 1 },
+            "role": { "frontliner": 2 },
+            "tag": { "survival": 1, "growth": 1 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "겉으로 안 보이는 법칙을 이해하면 힘은 훨씬 멀리 간다.",
+          "scores": {
+            "world": { "dark_fantasy": 1, "fantasy": 1 },
+            "role": { "caster": 2 },
+            "tag": { "inquiry": 1, "contract": 1 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "잘 만든 장비와 도구는 사람 한 명의 한계를 바꿔 준다.",
+          "scores": {
+            "world": { "cyberpunk": 1, "apocalypse": 1 },
+            "role": { "technician": 2 },
+            "tag": { "strategy": 1, "operation": 1 },
+            "big5": { "conscientiousness": 1, "openness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "힘은 단독 성능보다, 누구와 어떻게 연결되느냐가 더 중요하다.",
+          "scores": {
+            "world": { "fantasy": 1, "comedy_fantasy": 1 },
+            "role": { "supporter": 1, "caster": 1 },
+            "tag": { "support": 1, "contract": 1 },
+            "big5": { "agreeableness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "section": 3,
+      "question": "누군가 당신에게 '재능은 있는데 방식이 위험하다'고 말한다. 가장 가까운 반응은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "위험하더라도 결국 실전에 통하면 그게 답이라고 본다.",
+          "scores": {
+            "world": { "murim": 1, "fantasy": 1 },
+            "role": { "frontliner": 2 },
+            "tag": { "growth": 1, "strategy": 1 },
+            "big5": { "extraversion": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "위험한 방식일수록 더 깊이 이해해야 제대로 다룰 수 있다고 생각한다.",
+          "scores": {
+            "world": { "dark_fantasy": 2 },
+            "role": { "caster": 2 },
+            "tag": { "inquiry": 1, "record": 1 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "위험하다는 건 아직 안정화가 덜 됐다는 뜻일 뿐, 개선하면 된다.",
+          "scores": {
+            "world": { "cyberpunk": 1, "apocalypse": 1 },
+            "role": { "technician": 2 },
+            "tag": { "operation": 1, "record": 1 },
+            "big5": { "conscientiousness": 1, "openness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "내가 직접 쓰지 않아도, 다른 방식과 조합하면 위험을 줄일 수 있다.",
+          "scores": {
+            "world": { "fantasy": 1, "cyberpunk": 1 },
+            "role": { "supporter": 1, "technician": 1 },
+            "tag": { "support": 1, "strategy": 1 },
+            "big5": { "agreeableness": 1, "conscientiousness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "section": 3,
+      "question": "당신이 가장 견디기 힘든 건 어떤 배움의 방식인가?",
+      "options": [
+        {
+          "id": "A",
+          "text": "머리로만 떠들고 실제로 부딪혀 보지 않는 훈련",
+          "scores": {
+            "world": { "murim": 1, "fantasy": 1 },
+            "role": { "frontliner": 2 },
+            "tag": { "growth": 1, "comeback": 1 },
+            "big5": { "extraversion": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "왜 그런지 설명도 없이 외우고 따라 하기만 하는 방식",
+          "scores": {
+            "world": { "dark_fantasy": 1, "fantasy": 1 },
+            "role": { "caster": 2 },
+            "tag": { "inquiry": 1, "record": 1 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "기록도 검증도 없이 감에만 의존하는 즉흥적 방식",
+          "scores": {
+            "world": { "cyberpunk": 1, "apocalypse": 1 },
+            "role": { "technician": 2 },
+            "tag": { "record": 1, "operation": 1 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "혼자만 아는 방식이라 협력이나 전달이 전혀 안 되는 구조",
+          "scores": {
+            "world": { "comedy_fantasy": 1, "fantasy": 1 },
+            "role": { "supporter": 1, "commander": 1 },
+            "tag": { "support": 1, "operation": 1 },
+            "big5": { "agreeableness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "section": 3,
+      "question": "힘을 다루는 사람으로서 당신이 가장 남기고 싶은 건?",
+      "options": [
+        {
+          "id": "A",
+          "text": "누가 봐도 성장의 흔적이 보이는 내 전투 방식 그 자체",
+          "scores": {
+            "world": { "murim": 1, "fantasy": 1 },
+            "role": { "frontliner": 2 },
+            "tag": { "growth": 1, "record": 1 },
+            "big5": { "extraversion": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "다른 누구도 쉽게 해석하지 못할 만큼 깊은 지식의 체계",
+          "scores": {
+            "world": { "dark_fantasy": 1, "fantasy": 1 },
+            "role": { "caster": 2 },
+            "tag": { "record": 1, "inquiry": 1 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "다음 사람도 재현하고 응용할 수 있는 실용적인 기술과 도구",
+          "scores": {
+            "world": { "cyberpunk": 1, "apocalypse": 1 },
+            "role": { "technician": 2 },
+            "tag": { "operation": 1, "record": 1 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "혼자 강해진 흔적보다, 여러 사람이 써먹을 수 있는 방식과 체계",
+          "scores": {
+            "world": { "fantasy": 1, "comedy_fantasy": 1 },
+            "role": { "supporter": 1, "commander": 1 },
+            "tag": { "support": 1, "operation": 1 },
+            "big5": { "agreeableness": 1, "conscientiousness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "section": 3,
+      "question": "결국 당신에게 힘이란 무엇에 가장 가까운가?",
+      "options": [
+        {
+          "id": "A",
+          "text": "끝내 내 한계를 밀어붙이게 만드는 직접적인 돌파 수단",
+          "scores": {
+            "world": { "fantasy": 1, "murim": 1 },
+            "role": { "frontliner": 2 },
+            "tag": { "growth": 1, "comeback": 1 },
+            "big5": { "extraversion": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "세상이 숨기고 있는 질서와 법칙을 해석하는 열쇠",
+          "scores": {
+            "world": { "dark_fantasy": 1, "fantasy": 1 },
+            "role": { "caster": 2 },
+            "tag": { "inquiry": 1, "contract": 1 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "준비와 설계에 따라 얼마든지 결과를 바꿀 수 있는 도구",
+          "scores": {
+            "world": { "cyberpunk": 1, "apocalypse": 1 },
+            "role": { "technician": 2 },
+            "tag": { "strategy": 1, "operation": 1 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "혼자 휘두르기보다 연결과 분업 속에서 더 커지는 자원",
+          "scores": {
+            "world": { "comedy_fantasy": 1, "cyberpunk": 1 },
+            "role": { "supporter": 1, "technician": 1 },
+            "tag": { "support": 1, "operation": 1 },
+            "big5": { "agreeableness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "section": 4,
+      "question": "처음 합류한 파티가 생각보다 엉성하다. 당신이 가장 먼저 하게 되는 일은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "누가 가장 불안한 상태인지 보고, 당장 무너지지 않게 받쳐 준다.",
+          "scores": {
+            "world": { "fantasy": 1, "comedy_fantasy": 1 },
+            "role": { "supporter": 2 },
+            "tag": { "support": 1, "operation": 1 },
+            "big5": { "agreeableness": 1, "extraversion": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "각자 원하는 것과 숨기는 계산이 뭔지부터 파악한다.",
+          "scores": {
+            "world": { "cyberpunk": 1, "murim": 1 },
+            "role": { "negotiator": 2 },
+            "tag": { "contract": 1, "strategy": 1 },
+            "big5": { "openness": 1, "agreeableness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "이대로 가면 어디서 터질지 보여서 역할부터 다시 나눈다.",
+          "scores": {
+            "world": { "fantasy": 1, "apocalypse": 1 },
+            "role": { "commander": 2 },
+            "tag": { "operation": 1, "strategy": 1 },
+            "big5": { "conscientiousness": 1, "extraversion": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "말보다는 조금 더 지켜보며, 누구와 붙어야 덜 흔들릴지 판단한다.",
+          "scores": {
+            "world": { "dark_fantasy": 1, "apocalypse": 1 },
+            "role": { "supporter": 1, "negotiator": 1 },
+            "tag": { "survival": 1, "record": 1 },
+            "big5": { "neuroticism": 1, "agreeableness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "section": 4,
+      "question": "동료 한 명이 큰 실수를 했다. 당신의 반응에 가장 가까운 것은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "일단 수습이 먼저다. 책임보다 지금 필요한 도움부터 챙긴다.",
+          "scores": {
+            "world": { "fantasy": 1, "comedy_fantasy": 1 },
+            "role": { "supporter": 2 },
+            "tag": { "support": 1, "comeback": 1 },
+            "big5": { "agreeableness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "실수 자체보다 왜 그런 선택을 했는지 배경부터 들어본다.",
+          "scores": {
+            "world": { "murim": 1, "cyberpunk": 1 },
+            "role": { "negotiator": 2 },
+            "tag": { "contract": 1, "record": 1 },
+            "big5": { "agreeableness": 1, "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "다음에 같은 문제가 안 생기게 기준과 절차를 정리한다.",
+          "scores": {
+            "world": { "apocalypse": 1, "cyberpunk": 1 },
+            "role": { "commander": 2 },
+            "tag": { "operation": 1, "record": 1 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "겉으론 넘기더라도, 다시 함께 갈 수 있을지는 따로 판단한다.",
+          "scores": {
+            "world": { "dark_fantasy": 1, "murim": 1 },
+            "role": { "negotiator": 1, "commander": 1 },
+            "tag": { "contract": 1, "survival": 1 },
+            "big5": { "neuroticism": 1, "conscientiousness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "section": 4,
+      "question": "사람을 처음 만났을 때 당신이 제일 빨리 보는 것은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "지금 이 사람이 도움을 필요로 하는 상태인지 아닌지",
+          "scores": {
+            "world": { "fantasy": 1, "dark_fantasy": 1 },
+            "role": { "supporter": 2 },
+            "tag": { "support": 1, "record": 1 },
+            "big5": { "agreeableness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "말하는 내용보다 무엇을 감추고 있는지, 뭘 원하는지",
+          "scores": {
+            "world": { "cyberpunk": 1, "murim": 1 },
+            "role": { "negotiator": 2 },
+            "tag": { "contract": 1, "strategy": 1 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "이 사람이 어느 자리에서 가장 잘 움직일 수 있을지",
+          "scores": {
+            "world": { "fantasy": 1, "apocalypse": 1 },
+            "role": { "commander": 2 },
+            "tag": { "operation": 1, "support": 1 },
+            "big5": { "conscientiousness": 1, "agreeableness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "나와 얼마나 잘 맞을지보다, 문제를 만들 사람인지를 먼저 본다.",
+          "scores": {
+            "world": { "apocalypse": 1, "dark_fantasy": 1 },
+            "role": { "supporter": 1, "negotiator": 1 },
+            "tag": { "survival": 1, "record": 1 },
+            "big5": { "neuroticism": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "section": 4,
+      "question": "파티 안에서 갈등이 생겼을 때 당신 방식에 가장 가까운 것은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "누가 더 맞는지보다, 당장 깨지지 않게 중간을 받친다.",
+          "scores": {
+            "world": { "fantasy": 1, "comedy_fantasy": 1 },
+            "role": { "supporter": 2 },
+            "tag": { "support": 1, "operation": 1 },
+            "big5": { "agreeableness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "각자 얻고 싶은 것과 양보 가능한 선을 확인해 조율한다.",
+          "scores": {
+            "world": { "cyberpunk": 1, "murim": 1 },
+            "role": { "negotiator": 2 },
+            "tag": { "contract": 1, "operation": 1 },
+            "big5": { "agreeableness": 1, "extraversion": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "길게 끌수록 더 망가질 것 같으면 빠르게 기준을 정해 정리한다.",
+          "scores": {
+            "world": { "apocalypse": 1, "fantasy": 1 },
+            "role": { "commander": 2 },
+            "tag": { "operation": 1, "strategy": 1 },
+            "big5": { "conscientiousness": 1, "extraversion": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "지금 드러난 말보다 갈등이 생긴 누적 원인을 더 중요하게 본다.",
+          "scores": {
+            "world": { "dark_fantasy": 1, "murim": 1 },
+            "role": { "negotiator": 1, "supporter": 1 },
+            "tag": { "record": 1, "contract": 1 },
+            "big5": { "openness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "section": 4,
+      "question": "누군가 당신에게 자연스럽게 리더 역할을 맡기려 한다. 당신은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "앞에서 끌기보다는, 뒤에서 흐름이 끊기지 않게 받치는 쪽이 낫다.",
+          "scores": {
+            "world": { "fantasy": 1, "comedy_fantasy": 1 },
+            "role": { "supporter": 2 },
+            "tag": { "support": 1, "operation": 1 },
+            "big5": { "agreeableness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "내가 직접 이끈다기보다 사람과 이해관계를 엮어 굴러가게 만든다.",
+          "scores": {
+            "world": { "cyberpunk": 1, "murim": 1 },
+            "role": { "negotiator": 2 },
+            "tag": { "contract": 1, "operation": 1 },
+            "big5": { "extraversion": 1, "agreeableness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "필요하다면 맡는다. 대신 역할과 기준은 분명히 정해야 한다.",
+          "scores": {
+            "world": { "apocalypse": 1, "fantasy": 1 },
+            "role": { "commander": 2 },
+            "tag": { "operation": 1, "strategy": 1 },
+            "big5": { "conscientiousness": 1, "extraversion": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "누가 리더가 되든 상관없지만, 믿을 만한 구조는 꼭 있어야 한다.",
+          "scores": {
+            "world": { "dark_fantasy": 1, "apocalypse": 1 },
+            "role": { "commander": 1, "supporter": 1 },
+            "tag": { "survival": 1, "record": 1 },
+            "big5": { "conscientiousness": 1, "neuroticism": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "section": 4,
+      "question": "새로운 조직이나 길드에 들어갔을 때 가장 먼저 신경 쓰는 것은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "여기서 버티기 힘든 사람이 누군지, 누가 쉽게 무너질지",
+          "scores": {
+            "world": { "fantasy": 1, "dark_fantasy": 1 },
+            "role": { "supporter": 2 },
+            "tag": { "support": 1, "record": 1 },
+            "big5": { "agreeableness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "겉으로 보이는 규칙보다 실제로 판을 움직이는 사람과 거래 구조",
+          "scores": {
+            "world": { "cyberpunk": 1, "murim": 1 },
+            "role": { "negotiator": 2 },
+            "tag": { "contract": 1, "strategy": 1 },
+            "big5": { "openness": 1, "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "일이 굴러가는 체계가 있는지, 아니면 결국 사람빨로 버티는지",
+          "scores": {
+            "world": { "apocalypse": 1, "fantasy": 1 },
+            "role": { "commander": 2 },
+            "tag": { "operation": 1, "record": 1 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "누구를 믿을지보다, 누구와 엮이지 말아야 하는지가 더 중요하다.",
+          "scores": {
+            "world": { "dark_fantasy": 1, "apocalypse": 1 },
+            "role": { "negotiator": 1, "supporter": 1 },
+            "tag": { "survival": 1, "contract": 1 },
+            "big5": { "neuroticism": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "section": 4,
+      "question": "당신이 사람들 사이에서 가장 자주 맡게 되는 역할은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "힘든 사람 옆에 붙어서 어떻게든 끝까지 버티게 만드는 사람",
+          "scores": {
+            "world": { "fantasy": 1, "comedy_fantasy": 1 },
+            "role": { "supporter": 2 },
+            "tag": { "support": 1, "comeback": 1 },
+            "big5": { "agreeableness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "말이 안 통하는 사람끼리도 최소한 거래가 되게 만드는 사람",
+          "scores": {
+            "world": { "cyberpunk": 1, "murim": 1 },
+            "role": { "negotiator": 2 },
+            "tag": { "contract": 1, "operation": 1 },
+            "big5": { "extraversion": 1, "agreeableness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "흐트러진 판을 보고 정리해서 다시 굴러가게 만드는 사람",
+          "scores": {
+            "world": { "apocalypse": 1, "fantasy": 1 },
+            "role": { "commander": 2 },
+            "tag": { "operation": 1, "strategy": 1 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "굳이 드러나진 않지만, 누가 어떤 사람인지 오래 기억하는 사람",
+          "scores": {
+            "world": { "dark_fantasy": 1, "murim": 1 },
+            "role": { "supporter": 1, "negotiator": 1 },
+            "tag": { "record": 1, "contract": 1 },
+            "big5": { "openness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "section": 4,
+      "question": "팀 분위기가 전체적으로 가라앉아 있을 때 당신은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "말없이라도 필요한 걸 챙기며 분위기가 완전히 무너지지 않게 한다.",
+          "scores": {
+            "world": { "apocalypse": 1, "fantasy": 1 },
+            "role": { "supporter": 2 },
+            "tag": { "support": 1, "survival": 1 },
+            "big5": { "agreeableness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "사람마다 지금 뭘 원하고 있는지 읽어 분위기를 틀어볼 지점을 찾는다.",
+          "scores": {
+            "world": { "murim": 1, "cyberpunk": 1 },
+            "role": { "negotiator": 2 },
+            "tag": { "contract": 1, "support": 1 },
+            "big5": { "agreeableness": 1, "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "지금 필요한 목표를 짧게 제시해서 다시 움직이게 만든다.",
+          "scores": {
+            "world": { "fantasy": 1, "comedy_fantasy": 1 },
+            "role": { "commander": 2 },
+            "tag": { "operation": 1, "growth": 1 },
+            "big5": { "extraversion": 1, "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "괜한 말보다 각자 회복할 시간을 주는 편이 낫다고 본다.",
+          "scores": {
+            "world": { "dark_fantasy": 1, "apocalypse": 1 },
+            "role": { "supporter": 1, "commander": 1 },
+            "tag": { "record": 1, "survival": 1 },
+            "big5": { "neuroticism": 1, "agreeableness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "section": 4,
+      "question": "어떤 집단이 오래 살아남으려면 가장 필요한 건 뭐라고 보는가?",
+      "options": [
+        {
+          "id": "A",
+          "text": "서로 무너질 때 받아줄 수 있는 최소한의 신뢰와 돌봄",
+          "scores": {
+            "world": { "fantasy": 1, "dark_fantasy": 1 },
+            "role": { "supporter": 2 },
+            "tag": { "support": 1, "survival": 1 },
+            "big5": { "agreeableness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "감정만이 아니라 이해관계까지 맞물리는 현실적인 연결",
+          "scores": {
+            "world": { "cyberpunk": 1, "murim": 1 },
+            "role": { "negotiator": 2 },
+            "tag": { "contract": 1, "operation": 1 },
+            "big5": { "conscientiousness": 1, "agreeableness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "누가 빠져도 쉽게 무너지지 않는 구조와 기준",
+          "scores": {
+            "world": { "apocalypse": 1, "fantasy": 1 },
+            "role": { "commander": 2 },
+            "tag": { "operation": 1, "record": 1 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "누적된 균열을 빨리 알아차리고 관계를 조정하는 감각",
+          "scores": {
+            "world": { "dark_fantasy": 1, "comedy_fantasy": 1 },
+            "role": { "negotiator": 1, "supporter": 1 },
+            "tag": { "record": 1, "support": 1 },
+            "big5": { "openness": 1, "agreeableness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "section": 4,
+      "question": "끝까지 함께 갈 동료를 고를 수 있다면, 당신은 어떤 기준이 가장 강한가?",
+      "options": [
+        {
+          "id": "A",
+          "text": "강하든 약하든, 무너졌을 때 서로를 버리지 않을 사람",
+          "scores": {
+            "world": { "fantasy": 1, "dark_fantasy": 1 },
+            "role": { "supporter": 2 },
+            "tag": { "support": 1, "comeback": 1 },
+            "big5": { "agreeableness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "겉으로 착한 사람보다, 약속과 계산이 분명한 사람",
+          "scores": {
+            "world": { "cyberpunk": 1, "murim": 1 },
+            "role": { "negotiator": 2 },
+            "tag": { "contract": 1, "strategy": 1 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "감정 기복보다 역할 수행과 판단이 안정적인 사람",
+          "scores": {
+            "world": { "apocalypse": 1, "fantasy": 1 },
+            "role": { "commander": 2 },
+            "tag": { "operation": 1, "survival": 1 },
+            "big5": { "conscientiousness": 1, "neuroticism": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "처음엔 애매해 보여도, 위기에서 의외로 진가를 보일 사람",
+          "scores": {
+            "world": { "comedy_fantasy": 1, "murim": 1 },
+            "role": { "supporter": 1, "negotiator": 1 },
+            "tag": { "comeback": 1, "record": 1 },
+            "big5": { "openness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "section": 5,
+      "question": "물자도 사람도 부족한 상태로 며칠을 버텨야 한다. 당신의 기본 방식에 가장 가까운 것은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "일단 오늘과 내일을 넘길 최소한의 식량, 동선, 은신처부터 확보한다.",
+          "scores": {
+            "world": { "apocalypse": 1, "dark_fantasy": 1 },
+            "role": { "scout": 1 },
+            "tag": { "survival": 2 },
+            "big5": { "conscientiousness": 1, "neuroticism": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "한곳에 묶이기보다 위험이 오기 전에 이동할 수 있는 루트를 여러 개 만든다.",
+          "scores": {
+            "world": { "apocalypse": 1, "murim": 1 },
+            "role": { "scout": 1 },
+            "tag": { "wanderer": 2 },
+            "big5": { "openness": 1, "neuroticism": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "지금 가진 자원으로 가장 효율적인 선택을 반복하며 점점 유리한 판을 만든다.",
+          "scores": {
+            "world": { "cyberpunk": 1, "fantasy": 1 },
+            "role": { "shooter": 1 },
+            "tag": { "strategy": 2 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "한 번 무너져도 다시 회복할 수 있도록 사람과 여지를 남겨두는 쪽을 택한다.",
+          "scores": {
+            "world": { "comedy_fantasy": 1, "fantasy": 1 },
+            "role": { "negotiator": 1 },
+            "tag": { "comeback": 2 },
+            "big5": { "agreeableness": 1, "openness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "section": 5,
+      "question": "불리한 상황이 길어질수록 당신이 더 신경 쓰는 것은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "지금 당장 줄일 수 있는 위험이 무엇인지",
+          "scores": {
+            "world": { "apocalypse": 1, "dark_fantasy": 1 },
+            "role": { "scout": 1 },
+            "tag": { "survival": 2 },
+            "big5": { "neuroticism": 1, "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "계속 여기 남는 게 맞는지, 이동할 타이밍이 언제인지",
+          "scores": {
+            "world": { "murim": 1, "apocalypse": 1 },
+            "role": { "scout": 1 },
+            "tag": { "wanderer": 2 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "어디를 포기하고 어디를 지켜야 전체 승산이 생기는지",
+          "scores": {
+            "world": { "cyberpunk": 1, "fantasy": 1 },
+            "role": { "shooter": 1, "commander": 1 },
+            "tag": { "strategy": 2 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "지금 무너져도 다시 일어설 수 있는 사람과 관계가 남아 있는지",
+          "scores": {
+            "world": { "fantasy": 1, "comedy_fantasy": 1 },
+            "role": { "negotiator": 1, "supporter": 1 },
+            "tag": { "comeback": 2 },
+            "big5": { "agreeableness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "section": 5,
+      "question": "완전히 낯선 땅에 혼자 도착했다. 가장 먼저 세우는 기준은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "위험 지역, 안전 지역, 물과 식량 확보 지점을 빠르게 구분한다.",
+          "scores": {
+            "world": { "apocalypse": 1, "fantasy": 1 },
+            "role": { "scout": 1 },
+            "tag": { "survival": 2 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "머물 곳 하나보다, 필요할 때 빠질 수 있는 길을 먼저 본다.",
+          "scores": {
+            "world": { "apocalypse": 1, "murim": 1 },
+            "role": { "scout": 1 },
+            "tag": { "wanderer": 2 },
+            "big5": { "openness": 1, "neuroticism": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "정보를 모아 이곳의 구조와 규칙을 빨리 이해하는 게 먼저다.",
+          "scores": {
+            "world": { "cyberpunk": 1, "murim": 1 },
+            "role": { "negotiator": 1 },
+            "tag": { "strategy": 2 },
+            "big5": { "conscientiousness": 1, "openness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "처음부터 완벽하게 버티기보다, 실패해도 다시 시도할 발판을 만든다.",
+          "scores": {
+            "world": { "comedy_fantasy": 1, "fantasy": 1 },
+            "role": { "negotiator": 1, "supporter": 1 },
+            "tag": { "comeback": 2 },
+            "big5": { "agreeableness": 1, "openness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "section": 5,
+      "question": "지속적으로 손해를 보고 있다. 당신은 어떤 식으로 버티는 편인가?",
+      "options": [
+        {
+          "id": "A",
+          "text": "손실을 더 키우지 않도록 먼저 소비와 이동을 줄인다.",
+          "scores": {
+            "world": { "apocalypse": 1, "dark_fantasy": 1 },
+            "role": { "shooter": 1 },
+            "tag": { "survival": 2 },
+            "big5": { "conscientiousness": 1, "neuroticism": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "판이 굳기 전에 자리 자체를 바꾸고 흐름을 새로 잡는다.",
+          "scores": {
+            "world": { "murim": 1, "comedy_fantasy": 1 },
+            "role": { "scout": 1 },
+            "tag": { "wanderer": 2 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "당장 작은 이득이라도 반복해서 누적하면 다시 기회가 온다고 본다.",
+          "scores": {
+            "world": { "cyberpunk": 1, "fantasy": 1 },
+            "role": { "shooter": 1, "technician": 1 },
+            "tag": { "strategy": 2 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "완전히 망가진 것처럼 보여도, 다시 평가받을 계기는 남겨둔다.",
+          "scores": {
+            "world": { "comedy_fantasy": 1, "dark_fantasy": 1 },
+            "role": { "negotiator": 1 },
+            "tag": { "comeback": 2 },
+            "big5": { "openness": 1, "agreeableness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "section": 5,
+      "question": "자원이 모자랄 때 당신이 가장 쉽게 포기하지 못하는 것은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "지금 당장 생존에 필요한 최소한의 준비와 안전장치",
+          "scores": {
+            "world": { "apocalypse": 1, "dark_fantasy": 1 },
+            "role": { "scout": 1 },
+            "tag": { "survival": 2 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "언제든 다른 길로 틀 수 있는 자유와 이동 여지",
+          "scores": {
+            "world": { "murim": 1, "apocalypse": 1 },
+            "role": { "scout": 1, "negotiator": 1 },
+            "tag": { "wanderer": 2 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "지금은 사소해 보여도 이후 판을 바꿀 수 있는 핵심 정보",
+          "scores": {
+            "world": { "cyberpunk": 1, "murim": 1 },
+            "role": { "negotiator": 1, "shooter": 1 },
+            "tag": { "strategy": 2 },
+            "big5": { "conscientiousness": 1, "openness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "사람들 사이에서 다시 손잡을 수 있는 최소한의 신뢰",
+          "scores": {
+            "world": { "fantasy": 1, "comedy_fantasy": 1 },
+            "role": { "negotiator": 1, "supporter": 1 },
+            "tag": { "comeback": 2 },
+            "big5": { "agreeableness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "section": 5,
+      "question": "당신이 생각하는 '오래 살아남는 사람'은 어떤 사람에 가까운가?",
+      "options": [
+        {
+          "id": "A",
+          "text": "화려하지 않아도 위험을 줄이는 습관이 몸에 밴 사람",
+          "scores": {
+            "world": { "apocalypse": 1, "fantasy": 1 },
+            "role": { "scout": 1, "shooter": 1 },
+            "tag": { "survival": 2 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "한곳에 매이지 않고, 흐름이 나빠지면 바로 판을 옮길 줄 아는 사람",
+          "scores": {
+            "world": { "murim": 1, "apocalypse": 1 },
+            "role": { "scout": 1 },
+            "tag": { "wanderer": 2 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "지금 손해를 보더라도 끝에 이기기 위한 계산을 놓치지 않는 사람",
+          "scores": {
+            "world": { "cyberpunk": 1, "fantasy": 1 },
+            "role": { "shooter": 1, "negotiator": 1 },
+            "tag": { "strategy": 2 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "몇 번을 실패해도 다시 설 자리를 만드는 사람",
+          "scores": {
+            "world": { "comedy_fantasy": 1, "dark_fantasy": 1 },
+            "role": { "negotiator": 1, "supporter": 1 },
+            "tag": { "comeback": 2 },
+            "big5": { "agreeableness": 1, "openness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "section": 5,
+      "question": "불리한 협상이나 거래에 들어가야 한다면, 당신은 어떻게 버티는가?",
+      "options": [
+        {
+          "id": "A",
+          "text": "일단 당장 잃으면 안 되는 선부터 확실히 지키는 데 집중한다.",
+          "scores": {
+            "world": { "apocalypse": 1, "cyberpunk": 1 },
+            "role": { "negotiator": 1 },
+            "tag": { "survival": 2 },
+            "big5": { "conscientiousness": 1, "neuroticism": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "지금 조건이 나쁘면 다음 기회를 위해 자리를 옮길 준비를 한다.",
+          "scores": {
+            "world": { "murim": 1, "cyberpunk": 1 },
+            "role": { "negotiator": 1 },
+            "tag": { "wanderer": 2 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "불리해 보여도 전체 흐름에서 어디서 뒤집을 수 있는지 계산한다.",
+          "scores": {
+            "world": { "cyberpunk": 1, "murim": 1 },
+            "role": { "negotiator": 1, "commander": 1 },
+            "tag": { "strategy": 2 },
+            "big5": { "conscientiousness": 1, "openness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "지금은 져도, 다음에 더 나은 자리로 돌아올 명분을 남긴다.",
+          "scores": {
+            "world": { "fantasy": 1, "comedy_fantasy": 1 },
+            "role": { "negotiator": 1 },
+            "tag": { "comeback": 2 },
+            "big5": { "agreeableness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "section": 5,
+      "question": "장기적으로 가장 불안한 건 무엇인가?",
+      "options": [
+        {
+          "id": "A",
+          "text": "작은 방심 하나로 전체 생존 기반이 무너지는 것",
+          "scores": {
+            "world": { "apocalypse": 1, "dark_fantasy": 1 },
+            "role": { "scout": 1, "shooter": 1 },
+            "tag": { "survival": 2 },
+            "big5": { "neuroticism": 1, "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "한 자리에 너무 오래 묶여 선택지가 사라지는 것",
+          "scores": {
+            "world": { "murim": 1, "apocalypse": 1 },
+            "role": { "scout": 1 },
+            "tag": { "wanderer": 2 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "눈앞의 손익만 보다 더 큰 흐름을 놓치는 것",
+          "scores": {
+            "world": { "cyberpunk": 1, "fantasy": 1 },
+            "role": { "commander": 1, "shooter": 1 },
+            "tag": { "strategy": 2 },
+            "big5": { "conscientiousness": 1, "openness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "한 번의 실패가 끝으로 굳어져 다시 시작할 기회가 사라지는 것",
+          "scores": {
+            "world": { "dark_fantasy": 1, "comedy_fantasy": 1 },
+            "role": { "supporter": 1, "negotiator": 1 },
+            "tag": { "comeback": 2 },
+            "big5": { "agreeableness": 1, "neuroticism": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "section": 5,
+      "question": "지속적으로 밀리는 상황에서 당신이 끝까지 놓지 않는 태도는?",
+      "options": [
+        {
+          "id": "A",
+          "text": "조금 느리더라도 확실하게 버틸 수 있는 방식으로 줄여 나간다.",
+          "scores": {
+            "world": { "apocalypse": 1, "dark_fantasy": 1 },
+            "role": { "shooter": 1 },
+            "tag": { "survival": 2 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "막히면 다른 길을 찾고, 길이 없으면 판 자체를 바꿔 본다.",
+          "scores": {
+            "world": { "murim": 1, "comedy_fantasy": 1 },
+            "role": { "scout": 1 },
+            "tag": { "wanderer": 2 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "불리한 조건 속에서도 한 번 뒤집을 수 있는 지점을 계속 계산한다.",
+          "scores": {
+            "world": { "cyberpunk": 1, "fantasy": 1 },
+            "role": { "shooter": 1, "commander": 1 },
+            "tag": { "strategy": 2 },
+            "big5": { "conscientiousness": 1, "openness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "지금 당장 빛나지 않아도, 다시 평가받을 순간이 온다고 믿는다.",
+          "scores": {
+            "world": { "fantasy": 1, "comedy_fantasy": 1 },
+            "role": { "supporter": 1, "negotiator": 1 },
+            "tag": { "comeback": 2 },
+            "big5": { "agreeableness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "section": 5,
+      "question": "당신에게 '버틴다'는 것은 무엇에 가장 가까운가?",
+      "options": [
+        {
+          "id": "A",
+          "text": "무너지지 않기 위한 준비를 계속 이어가는 것",
+          "scores": {
+            "world": { "apocalypse": 1, "dark_fantasy": 1 },
+            "role": { "scout": 1 },
+            "tag": { "survival": 2 },
+            "big5": { "conscientiousness": 1, "neuroticism": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "머물러 무너지는 대신, 움직이며 살아남는 것",
+          "scores": {
+            "world": { "murim": 1, "apocalypse": 1 },
+            "role": { "scout": 1, "negotiator": 1 },
+            "tag": { "wanderer": 2 },
+            "big5": { "openness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "당장은 밀려도 결국 이길 수 있는 조건을 남겨두는 것",
+          "scores": {
+            "world": { "cyberpunk": 1, "fantasy": 1 },
+            "role": { "shooter": 1, "negotiator": 1 },
+            "tag": { "strategy": 2 },
+            "big5": { "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "넘어져도 다시 돌아올 수 있게 이름과 관계를 잃지 않는 것",
+          "scores": {
+            "world": { "fantasy": 1, "comedy_fantasy": 1 },
+            "role": { "negotiator": 1, "supporter": 1 },
+            "tag": { "comeback": 2 },
+            "big5": { "agreeableness": 1, "openness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "section": 6,
+      "question": "결국 이 세계에서 당신이 어떤 사람으로 기억되면 좋겠는가?",
+      "options": [
+        {
+          "id": "A",
+          "text": "끝까지 버티며 사람들을 지켜낸 사람",
+          "scores": {
+            "world": { "apocalypse": 1, "fantasy": 1 },
+            "role": { "supporter": 1, "frontliner": 1 },
+            "tag": { "support": 2 },
+            "big5": { "agreeableness": 2, "extraversion": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "아무도 보지 못한 진실과 구조를 밝혀낸 사람",
+          "scores": {
+            "world": { "dark_fantasy": 1, "cyberpunk": 1 },
+            "role": { "caster": 1, "technician": 1 },
+            "tag": { "record": 2 },
+            "big5": { "openness": 2 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "흐트러진 판을 결국 이기는 방향으로 이끈 사람",
+          "scores": {
+            "world": { "murim": 1, "cyberpunk": 1 },
+            "role": { "commander": 1, "negotiator": 1 },
+            "tag": { "operation": 2 },
+            "big5": { "conscientiousness": 2, "extraversion": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "수없이 꺾여도 끝내 다시 일어난 사람",
+          "scores": {
+            "world": { "comedy_fantasy": 1, "dark_fantasy": 1 },
+            "role": { "supporter": 1, "frontliner": 1 },
+            "tag": { "comeback": 2 },
+            "big5": { "openness": 1, "neuroticism": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "section": 6,
+      "question": "힘을 쓰는 이유를 하나만 고르라면, 당신에게 가장 가까운 것은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "내 사람과 내가 설 자리를 지키기 위해서",
+          "scores": {
+            "world": { "fantasy": 1, "apocalypse": 1 },
+            "role": { "supporter": 1, "frontliner": 1 },
+            "tag": { "support": 2 },
+            "big5": { "agreeableness": 2 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "이 세계가 숨기고 있는 규칙과 진실을 끝까지 알고 싶어서",
+          "scores": {
+            "world": { "dark_fantasy": 1, "fantasy": 1 },
+            "role": { "caster": 1 },
+            "tag": { "record": 2, "inquiry": 1 },
+            "big5": { "openness": 2 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "불리한 판이라도 결국 유리하게 바꿀 수 있다는 걸 증명하고 싶어서",
+          "scores": {
+            "world": { "cyberpunk": 1, "murim": 1 },
+            "role": { "commander": 1, "negotiator": 1 },
+            "tag": { "operation": 2, "strategy": 1 },
+            "big5": { "conscientiousness": 2 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "처음부터 잘난 사람이 아니어도 끝내 강해질 수 있다는 걸 보여주고 싶어서",
+          "scores": {
+            "world": { "comedy_fantasy": 1, "murim": 1 },
+            "role": { "frontliner": 1, "supporter": 1 },
+            "tag": { "growth": 2, "comeback": 1 },
+            "big5": { "extraversion": 1, "openness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "section": 6,
+      "question": "반복되는 실패 끝에 당신이 가장 끝까지 놓지 않을 것은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "다음 한 번을 버틸 수 있게 해 주는 최소한의 기반",
+          "scores": {
+            "world": { "apocalypse": 1, "dark_fantasy": 1 },
+            "role": { "scout": 1, "supporter": 1 },
+            "tag": { "survival": 2 },
+            "big5": { "conscientiousness": 1, "neuroticism": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "왜 실패했는지 끝까지 기록하고 이해하려는 태도",
+          "scores": {
+            "world": { "dark_fantasy": 1, "cyberpunk": 1 },
+            "role": { "technician": 1, "caster": 1 },
+            "tag": { "record": 2 },
+            "big5": { "openness": 2, "conscientiousness": 1 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "아직 뒤집을 수 있는 흐름이 남아 있다는 계산",
+          "scores": {
+            "world": { "cyberpunk": 1, "murim": 1 },
+            "role": { "commander": 1, "negotiator": 1 },
+            "tag": { "strategy": 2, "operation": 1 },
+            "big5": { "conscientiousness": 2 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "지금은 무너져도 다시 일어설 수 있다는 믿음",
+          "scores": {
+            "world": { "comedy_fantasy": 1, "fantasy": 1 },
+            "role": { "supporter": 1, "frontliner": 1 },
+            "tag": { "comeback": 2 },
+            "big5": { "agreeableness": 1, "openness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "section": 6,
+      "question": "큰 대가를 치르고서라도 반드시 지키고 싶은 것은 무엇인가?",
+      "options": [
+        {
+          "id": "A",
+          "text": "함께 버텨 온 사람과 관계",
+          "scores": {
+            "world": { "fantasy": 1, "dark_fantasy": 1 },
+            "role": { "supporter": 1, "negotiator": 1 },
+            "tag": { "support": 2 },
+            "big5": { "agreeableness": 2 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "남들이 두려워해도 사라지면 안 되는 지식과 기록",
+          "scores": {
+            "world": { "dark_fantasy": 1, "fantasy": 1 },
+            "role": { "caster": 1, "technician": 1 },
+            "tag": { "record": 2 },
+            "big5": { "openness": 2 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "무너져도 다시 굴러갈 수 있는 구조와 질서",
+          "scores": {
+            "world": { "cyberpunk": 1, "apocalypse": 1 },
+            "role": { "commander": 1 },
+            "tag": { "operation": 2 },
+            "big5": { "conscientiousness": 2 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "언젠가 더 나은 기회로 돌아올 수 있는 가능성",
+          "scores": {
+            "world": { "murim": 1, "comedy_fantasy": 1 },
+            "role": { "negotiator": 1, "scout": 1 },
+            "tag": { "wanderer": 1, "comeback": 1 },
+            "big5": { "openness": 1, "neuroticism": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "section": 6,
+      "question": "당신이 가장 경계하는 결말은 무엇에 가까운가?",
+      "options": [
+        {
+          "id": "A",
+          "text": "끝까지 버텼는데도 결국 아무도 지키지 못하는 결말",
+          "scores": {
+            "world": { "apocalypse": 1, "fantasy": 1 },
+            "role": { "supporter": 1, "frontliner": 1 },
+            "tag": { "support": 2 },
+            "big5": { "agreeableness": 2, "neuroticism": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "무엇을 위해 싸웠는지도 모른 채 진실이 묻혀 버리는 결말",
+          "scores": {
+            "world": { "dark_fantasy": 1, "cyberpunk": 1 },
+            "role": { "caster": 1, "technician": 1 },
+            "tag": { "record": 2 },
+            "big5": { "openness": 2 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "이길 수 있었는데 흐름과 판단을 놓쳐 허무하게 무너지는 결말",
+          "scores": {
+            "world": { "murim": 1, "cyberpunk": 1 },
+            "role": { "commander": 1, "shooter": 1 },
+            "tag": { "strategy": 2 },
+            "big5": { "conscientiousness": 2 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "한 번의 실패로 다시 시작할 기회조차 잃어버리는 결말",
+          "scores": {
+            "world": { "comedy_fantasy": 1, "dark_fantasy": 1 },
+            "role": { "supporter": 1, "negotiator": 1 },
+            "tag": { "comeback": 2 },
+            "big5": { "neuroticism": 1, "openness": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "section": 6,
+      "question": "당신이 남기는 흔적은 어떤 형태에 가장 가까울 것 같은가?",
+      "options": [
+        {
+          "id": "A",
+          "text": "누군가가 끝내 무너지지 않게 만든 조용한 도움의 흔적",
+          "scores": {
+            "world": { "fantasy": 1, "comedy_fantasy": 1 },
+            "role": { "supporter": 1 },
+            "tag": { "support": 2 },
+            "big5": { "agreeableness": 2 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "오래 지나도 해석될 기록과 지식의 흔적",
+          "scores": {
+            "world": { "dark_fantasy": 1, "fantasy": 1 },
+            "role": { "caster": 1, "technician": 1 },
+            "tag": { "record": 2 },
+            "big5": { "openness": 2 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "사람이 바뀌어도 유지되는 방식과 구조의 흔적",
+          "scores": {
+            "world": { "cyberpunk": 1, "apocalypse": 1 },
+            "role": { "commander": 1, "technician": 1 },
+            "tag": { "operation": 2 },
+            "big5": { "conscientiousness": 2 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "한 번 잊혀져도 다시 떠오를 가능성과 이름의 흔적",
+          "scores": {
+            "world": { "murim": 1, "comedy_fantasy": 1 },
+            "role": { "negotiator": 1, "frontliner": 1 },
+            "tag": { "comeback": 2 },
+            "big5": { "openness": 1, "extraversion": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "section": 6,
+      "question": "결정적인 순간, 당신이 가장 믿는 건 무엇인가?",
+      "options": [
+        {
+          "id": "A",
+          "text": "결국 사람은 서로를 붙잡아야 끝까지 간다는 사실",
+          "scores": {
+            "world": { "fantasy": 1, "dark_fantasy": 1 },
+            "role": { "supporter": 1, "negotiator": 1 },
+            "tag": { "support": 2 },
+            "big5": { "agreeableness": 2 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "겉으로 보이지 않아도 세상에는 읽을 수 있는 구조가 있다는 사실",
+          "scores": {
+            "world": { "dark_fantasy": 1, "cyberpunk": 1 },
+            "role": { "caster": 1, "technician": 1 },
+            "tag": { "record": 1, "inquiry": 1 },
+            "big5": { "openness": 2 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "마지막까지 흐름을 읽고 판단하면 판을 바꿀 수 있다는 사실",
+          "scores": {
+            "world": { "murim": 1, "cyberpunk": 1 },
+            "role": { "commander": 1, "shooter": 1 },
+            "tag": { "strategy": 1, "operation": 1 },
+            "big5": { "conscientiousness": 2, "extraversion": 1 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "지금은 져도 끝이 아니라는 사실",
+          "scores": {
+            "world": { "comedy_fantasy": 1, "fantasy": 1 },
+            "role": { "frontliner": 1, "supporter": 1 },
+            "tag": { "comeback": 2 },
+            "big5": { "openness": 1, "neuroticism": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "section": 6,
+      "question": "어떤 대가를 치르더라도 피하고 싶은 건 무엇인가?",
+      "options": [
+        {
+          "id": "A",
+          "text": "내가 할 수 있었는데도 결국 아무도 도와주지 못하는 것",
+          "scores": {
+            "world": { "fantasy": 1, "apocalypse": 1 },
+            "role": { "supporter": 1 },
+            "tag": { "support": 2 },
+            "big5": { "agreeableness": 2, "neuroticism": 1 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "누군가 남겨 둔 진실이 제대로 읽히지 못한 채 사라지는 것",
+          "scores": {
+            "world": { "dark_fantasy": 1, "fantasy": 1 },
+            "role": { "caster": 1, "technician": 1 },
+            "tag": { "record": 2 },
+            "big5": { "openness": 2 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "구조를 만들 수 있었는데도 혼란을 방치하는 것",
+          "scores": {
+            "world": { "cyberpunk": 1, "apocalypse": 1 },
+            "role": { "commander": 1 },
+            "tag": { "operation": 2 },
+            "big5": { "conscientiousness": 2 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "한 번의 실패 때문에 이후의 가능성까지 잃어버리는 것",
+          "scores": {
+            "world": { "murim": 1, "comedy_fantasy": 1 },
+            "role": { "negotiator": 1, "frontliner": 1 },
+            "tag": { "comeback": 2 },
+            "big5": { "openness": 1, "neuroticism": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "section": 6,
+      "question": "당신에게 가장 어울리는 마지막 한 줄은 어느 쪽에 가까운가?",
+      "options": [
+        {
+          "id": "A",
+          "text": "끝까지 곁에 남아 준 사람",
+          "scores": {
+            "world": { "fantasy": 1, "dark_fantasy": 1 },
+            "role": { "supporter": 1 },
+            "tag": { "support": 2 },
+            "big5": { "agreeableness": 2 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "끝내 알아낸 사람",
+          "scores": {
+            "world": { "dark_fantasy": 1, "cyberpunk": 1 },
+            "role": { "caster": 1, "technician": 1 },
+            "tag": { "record": 2 },
+            "big5": { "openness": 2 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "끝내 굴러가게 만든 사람",
+          "scores": {
+            "world": { "cyberpunk": 1, "murim": 1 },
+            "role": { "commander": 1, "negotiator": 1 },
+            "tag": { "operation": 2 },
+            "big5": { "conscientiousness": 2 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "끝내 돌아온 사람",
+          "scores": {
+            "world": { "comedy_fantasy": 1, "fantasy": 1 },
+            "role": { "frontliner": 1, "supporter": 1 },
+            "tag": { "comeback": 2 },
+            "big5": { "openness": 1, "extraversion": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "section": 6,
+      "question": "모든 선택이 끝난 뒤, 당신이 가장 만족할 결말은 무엇인가?",
+      "options": [
+        {
+          "id": "A",
+          "text": "내가 지키고 싶었던 사람과 자리가 끝내 남아 있는 결말",
+          "scores": {
+            "world": { "fantasy": 1, "apocalypse": 1 },
+            "role": { "supporter": 1, "negotiator": 1 },
+            "tag": { "support": 2 },
+            "big5": { "agreeableness": 2 }
+          }
+        },
+        {
+          "id": "B",
+          "text": "진실과 기록이 다음 시대까지 이어질 수 있는 결말",
+          "scores": {
+            "world": { "dark_fantasy": 1, "fantasy": 1 },
+            "role": { "caster": 1, "technician": 1 },
+            "tag": { "record": 2 },
+            "big5": { "openness": 2 }
+          }
+        },
+        {
+          "id": "C",
+          "text": "혼란 속에서도 결국 질서와 흐름이 다시 세워지는 결말",
+          "scores": {
+            "world": { "cyberpunk": 1, "murim": 1 },
+            "role": { "commander": 1, "shooter": 1 },
+            "tag": { "operation": 2 },
+            "big5": { "conscientiousness": 2 }
+          }
+        },
+        {
+          "id": "D",
+          "text": "비록 쓰러졌더라도 언젠가 다시 시작할 여지가 남아 있는 결말",
+          "scores": {
+            "world": { "comedy_fantasy": 1, "dark_fantasy": 1 },
+            "role": { "frontliner": 1, "supporter": 1 },
+            "tag": { "comeback": 2 },
+            "big5": { "openness": 1, "neuroticism": 1 }
+          }
+        }
+      ]
+    }
+  ]
+}

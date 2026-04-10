@@ -1,0 +1,86 @@
+{
+  "role_labels": {
+    "frontliner": "전위",
+    "shooter": "사수",
+    "caster": "술자",
+    "supporter": "지원가",
+    "scout": "정찰자",
+    "technician": "기술자",
+    "negotiator": "협상가",
+    "commander": "지휘관"
+  },
+  "world_role_titles": {
+    "apocalypse": {
+      "frontliner": "생존자",
+      "shooter": "저격수",
+      "caster": "변이자",
+      "supporter": "응급요원",
+      "scout": "탐색자",
+      "technician": "수리공",
+      "negotiator": "중개인",
+      "commander": "집결자"
+    },
+    "dark_fantasy": {
+      "frontliner": "잿빛 기사",
+      "shooter": "흑궁수",
+      "caster": "주술사",
+      "supporter": "회복사",
+      "scout": "그림자 추적자",
+      "technician": "연금술사",
+      "negotiator": "중재자",
+      "commander": "성전 지휘관"
+    },
+    "fantasy": {
+      "frontliner": "검사",
+      "shooter": "궁수",
+      "caster": "마법사",
+      "supporter": "사제",
+      "scout": "도적",
+      "technician": "연금술사",
+      "negotiator": "상인",
+      "commander": "기사단장"
+    },
+    "comedy_fantasy": {
+      "frontliner": "돌격수",
+      "shooter": "한 방 노리는 사수",
+      "caster": "문제 많은 술자",
+      "supporter": "파티 수습가",
+      "scout": "잔꾀꾼",
+      "technician": "잡동사니 제작자",
+      "negotiator": "길드 브로커",
+      "commander": "억지 리더"
+    },
+    "cyberpunk": {
+      "frontliner": "돌격수",
+      "shooter": "마크스맨",
+      "caster": "해커",
+      "supporter": "메딕",
+      "scout": "침투자",
+      "technician": "엔지니어",
+      "negotiator": "브로커",
+      "commander": "오퍼레이터"
+    },
+    "murim": {
+      "frontliner": "검객",
+      "shooter": "암기수",
+      "caster": "술법가",
+      "supporter": "의원",
+      "scout": "척후",
+      "technician": "기공장",
+      "negotiator": "행상인",
+      "commander": "문파 참모"
+    }
+  },
+  "tag_labels": {
+    "growth": "성장형",
+    "survival": "생존형",
+    "inquiry": "탐구형",
+    "strategy": "공략형",
+    "support": "보조형",
+    "operation": "운영형",
+    "wanderer": "유랑형",
+    "comeback": "재기형",
+    "contract": "계약형",
+    "record": "기록형"
+  }
+}
