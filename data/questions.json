@@ -348,7 +348,7 @@
         },
         {
           "id": "C",
-          "text": "허술한 파티가 계속 사고를 치는데도 somehow 살아남는다는 이야기",
+          "text": "허술한 파티가 계속 사고를 치는데도 어떻게든 살아남는다는 이야기",
           "scores": {
             "world": { "comedy_fantasy": 2 },
             "role": { "supporter": 1 },
@@ -687,7 +687,7 @@
         },
         {
           "id": "D",
-          "text": "모두가 위험해질 경우 어디서 regroup하고 어떻게 빠질지",
+          "text": "모두가 위험해질 경우 어디서 재편성하고 어떻게 빠질지",
           "scores": {
             "world": { "fantasy": 1, "apocalypse": 1 },
             "role": { "commander": 2 },
